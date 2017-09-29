@@ -125,7 +125,7 @@
 								<input type="text" name="name" placeholder="Name" />
 							</div>
 							<div class="6u 12u(mobilep)">
-								<input type="email" name="email" placeholder="Email" />
+								<input type="email" name="email" placeholder="Email" name="_replyto"/>
 							</div>
 						</div>
 						<div class="row">
@@ -133,6 +133,9 @@
 								<textarea name="message" placeholder="Message" rows="6"></textarea>
 							</div>
 						</div>
+						<input type="hidden" name="_subject" value="Someone used the website contact form!" />
+						<input type="hidden" name="_cc" value="danielle@phantom.design,simon@phantom.design" />
+						<input type="hidden" name="_next" value="//site.io/thanks.html" />
 						<div class="row">
 							<div class="12u">
 								<ul class="actions">
