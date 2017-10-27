@@ -3146,3 +3146,28 @@
     display: block;
   }
 }
+
+/* Small fixes */
+#main {
+	padding:0px;
+}
+.box {
+	margin-bottom:0px;
+}
+#footer {
+    padding-bottom: 5em !important;
+}
+
+input[type="food"], input[type="text"]::placeholder, input[type="password"]::placeholder, input[type="email"]::placeholder, select::placeholder {
+    color: #f00 !important;
+    top: 0px !important;
+}
+
+@media (max-width: 400px) {
+	.flex-grid {
+	    display: flex;
+	}
+	.col {
+		width: 35%;
+	}
+}
