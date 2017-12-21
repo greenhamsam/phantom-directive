@@ -48,10 +48,6 @@
 		-webkit-text-size-adjust: none;
 	}
 
-	div.center {
-		margin:auto;
-	}
-
 /* Box Model */
 
 	*, *:before, *:after {
@@ -1894,6 +1890,10 @@
 		border-left: solid 0.5em rgba(224, 224, 224, 0.75);
 		font-style: italic;
 		padding: 1em 0 1em 2em;
+	}
+
+	div.center {
+		margin:auto;
 	}
 
 /* Section/Article */
