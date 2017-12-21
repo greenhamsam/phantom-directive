@@ -48,6 +48,10 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	div.center {
+		margin:auto;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
